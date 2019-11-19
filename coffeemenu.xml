@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="coffeemenu.xsl"?>
+
+<coffeemenu>
+<coffees>
+    <name>americano</name> 
+    <description>The kick that you need to start your day</description> 
+    <price>3.00</price> 
+</coffees>
+
+<coffees>
+<name>cappuccino</name>
+<description>composed of double espresso and hot milk, with the surface topped with foamed milk.</description>
+<price>3.50 </price>
+</coffees>
+
+<coffees>
+<name>Lovely Latte</name>
+<description>It consists of one-third espresso, two-thirds heated milk and about 1cm of foam.</description>
+<price>3.50</price> 
+</coffees>
+
+<coffees>
+<name>espresso</name> 
+<description> is a full-flavored, concentrated form of coffee that is served in “shots.” 
+    It is made by forcing pressurized, hot water through very finely ground coffee beans.</description>   
+<price>2.00 </price>
+</coffees>
+
+<coffees>
+<name>macchiato</name> 
+<description> It's basically an espresso (served in a demitasse cup) with a small amount of foamed milk on top</description>       
+<price>2.50</price> 
+</coffees>
+       
+
+
+
+
+</coffeemenu>
+
