@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<body style="font-family:Comic;font-size:12pt;background-color:#E8ADAA">
+<xsl:template match= "/">
+
+<html>
+<body>
+<h1> <xsl:value-of select= "//message" />  </h1>>
+    </body>>
+
+    </html>>
+
+    <!-- <body style="font-family:Comic;font-size:12pt;background-color:#E8ADAA">
 <xsl:for-each select="coffeemenu/coffees">
 <div style="background-color:teal;color:white;padding:4px">
 
@@ -12,10 +21,13 @@
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span>
     </p>
-  </div>
-</xsl:for-each>
-</body>
+  </div> -->
+ 
+
+<!-- </body> -->
 </html>
+ </xsl:template>
+ <!-- </xsl:for-each> -->
 
 
  
